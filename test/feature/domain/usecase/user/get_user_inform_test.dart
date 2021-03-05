@@ -16,7 +16,7 @@ void main(){
     userInformRepository = MockUserInformRepository();
     getUserInformUsecase = GetUserInform(userInformRepository);
   });
-  final userInform = UserInform(fullName: "Nguyen", userName: "nguyendz", email: null, phone: null, gender: null, dateOfBirth: null, address: null, tonGiao: null, relationship: null);
+  final userInform = UserInform( userName: "nguyendz", email: null);
   test("Test get user information", () async {
     when(userInformRepository.getUserInform()).thenAnswer((_)async => Right(userInform));
     final result = await getUserInformUsecase(NoParams());
