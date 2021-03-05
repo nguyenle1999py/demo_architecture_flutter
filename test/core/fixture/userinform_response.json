@@ -1,0 +1,20 @@
+{
+  "result": true,
+  "message": "Query data success",
+  "data": {
+    "registerdate": 1609156938531,
+    "dateofbirth": 0,
+    "gender": 0,
+    "relationship": 0,
+    "address": "",
+    "avatar": "https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png",
+    "status": true,
+    "_id": "5fe9cb6183d25700175cd670",
+    "username": "nguyenpy@gmail.com",
+    "password": "$2a$10$jtiuIgBYRT3PQ/xHIAJuPeNNGeWV0jM8KFOUPdBHWjbrV9jPVeuUS",
+    "firstname": "Nguyên",
+    "lastname": "Lê",
+    "__v": 0
+  },
+  "err": null
+}
